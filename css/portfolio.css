@@ -143,6 +143,9 @@ S E C T I O N S /
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 Sidebar
 */
+#sidebar {
+  background: #ff7f00 !important;
+}
 
 @media (min-width: 992px) { 
 #sidebar {
