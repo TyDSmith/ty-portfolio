@@ -144,7 +144,10 @@ S E C T I O N S /
 Sidebar
 */
 #sidebar {
-  background: #ff7f00 !important;
+  background: #ff7f00; /* Old browsers */
+  background: -moz-linear-gradient(top, #ff7f00 24%, #ed8674 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ff7f00 24%,#ed8674 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ff7f00 24%,#ed8674 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 @media (min-width: 992px) { 
